@@ -1,0 +1,18 @@
+# crabtunes
+
+A **_WIP_** cross-platform music library manager built with Rust, inspired by applications like MusicBee and iTunes.
+
+## TODO / GOALS
+
+- [ ] Library Management
+  - [ ] Scan local folders for music files (MP3, FLAC, OGG, etc.).
+  - [ ] Read and edit metadata (tags) using a library like lofty.
+  - [ ] Display music in a filterable, sortable library view (by artist, album, genre, etc.).
+  - [ ] Display album art.
+- [ ] Tag Editor
+  - [ ] Make an extensible autotag feature that pulls tags from different sources.
+- [ ] GUI
+  - [ ] Make a GUI for the application with either Iced or Relm4
+- [ ] Cross-Platform Support
+
+

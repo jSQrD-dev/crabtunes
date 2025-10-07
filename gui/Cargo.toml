@@ -4,3 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+smol = "2.0.2"
+smolscale = "0.4.16"
+iced = "0.13.1"
+library = { path = "../library" }

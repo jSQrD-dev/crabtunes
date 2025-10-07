@@ -1,0 +1,35 @@
+{
+  "spellright.language": [
+    "en-US-10-1."
+  ],
+  "spellright.documentTypes": [
+    "markdown",
+    "latex",
+    "plaintext",
+    "git-commit",
+    "yaml",
+    "json",
+    "python",
+    "javascript",
+    "typescript",
+    "html",
+    "css"
+  ],
+  "spellright.parserByClass": {
+    "comment": {
+      "parser": "plain"
+    },
+    "string": {
+      "parser": "plain"
+    },
+    "class": {
+      "parser": "code"
+    },
+    "function": {
+      "parser": "code"
+    },
+    "variable": {
+      "parser": "code"
+    }
+  }
+}

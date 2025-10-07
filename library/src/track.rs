@@ -1,8 +1,4 @@
-use redb::{Database, TableDefinition};
 use std::path::{Path, PathBuf};
-
-const DB_PATH: &str = "ct_library.redb";
-const TRACKS_TABLE: TableDefinition<&[u8], &[u8]> = TableDefinition::new("tracks");
 
 #[derive(Debug, Clone)]
 pub struct Track {
@@ -39,10 +35,6 @@ pub struct Track {
     pub discogs_label: Option<String>,             // Vorbis: LABEL, ID3: TPUB
     pub catalog_number: Option<String>,            // Vorbis: CATALOGNUMBER, ID3: TXXX
     pub grouping: Option<String>,                  // Vorbis: GROUPING, ID3: TIT1 (Content group)
-}
-
-pub struct Library {
-    db: Database,
 }
 
 /// Helper to parse ReplayGain strings like "-7.23 dB" into a float.
