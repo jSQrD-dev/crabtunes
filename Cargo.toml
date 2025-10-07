@@ -1,0 +1,9 @@
+[workspace]
+resolver = "3"
+members = [
+  "libs", # The logic library
+  "gui",  # The Iced application
+]
+
+# By default, `cargo run` will run the `gui` binary crate.
+default-members = ["gui"]
